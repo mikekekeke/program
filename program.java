@@ -11,6 +11,11 @@ public class program
 	{
 		return a + b;
 	}
+	public int input (String text)
+	{
+		System.out.print (text);
+		return sc.nextInt();
+	}
 }
 
 
