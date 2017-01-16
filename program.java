@@ -6,6 +6,14 @@ public class program
 	public static void main(String[] args)
 	{
 		System.out.println("Hello");
+		program program = new program();
+		program.start();
+	}
+	public start ()
+	{
+		int a = input("vuasia, enter pls 1 number: ");
+		int b = input("vuasia, e brat, a ewe 2 number, pls: ");
+		System.out.println("brat, vuot tvoja summa: " + sum(a, b);
 	}
 	public int sum (int a, int b)
 	{
